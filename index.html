@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Harshal Karve — Full-Stack Developer portfolio. Explore projects, skills and contact information." />
+  <title>Harshal Karve | Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-mark">HK</span><span>Harshal<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a class="button button-small button-outline nav-cta" href="#contact">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING & OPPORTUNITIES</div>
+          <p class="intro-label">Hello, I'm</p>
+          <h1>Harshal <span>Karve</span><br><span class="heading-light">Full-Stack Developer</span></h1>
+          <p class="hero-text">I build clean, responsive and useful digital experiences. I enjoy turning ideas into practical web applications through thoughtful design and code.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="button button-text" href="#contact">Get in touch <span>→</span></a>
+          </div>
+          <div class="hero-meta">
+            <div><strong>Based in</strong><span>Kolhapur, Maharashtra</span></div>
+            <div><strong>Focus</strong><span>Web & Full-Stack Development</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+          <div class="photo-card">
+            <img src="assets/profile.jpg" alt="Harshal Karve profile photo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid';" />
+            <div class="photo-placeholder"><span>HK</span><small>Add your photo</small></div>
+            <div class="photo-caption"><span class="caption-line"></span><div><strong>Harshal Karve</strong><small>Developer in progress</small></div></div>
+          </div>
+          <div class="floating-card floating-code"><span class="code-icon">&lt;/&gt;</span><div><strong>Code with purpose</strong><small>Learn · Build · Improve</small></div></div>
+          <div class="floating-card floating-location"><span class="location-icon">✦</span><div><strong>Computer Science</strong><small>Engineering student</small></div></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading"><p class="section-kicker">A LITTLE ABOUT ME</p><h2>Curious mind.<br><span>Builder's mindset.</span></h2></div>
+        <div class="about-grid">
+          <div class="about-lead"><p class="large-copy">I'm a Computer Science Engineering student interested in building technology that solves real problems.</p><p>I enjoy working across the front end and back end — from shaping a clear user interface to connecting applications with databases and application logic. I’m continuously learning, experimenting and improving through hands-on projects.</p><a class="inline-link" href="#contact">Let's connect <span>↗</span></a></div>
+          <div class="about-details">
+            <div class="detail-card"><span class="detail-number">01</span><div><h3>Education</h3><p>TY Computer Science & Engineering<br>D.Y. Patil College of Engineering & Technology, Kolhapur</p></div></div>
+            <div class="detail-card"><span class="detail-number">02</span><div><h3>What I enjoy</h3><p>Web development, problem solving, databases and exploring AI-powered applications.</p></div></div>
+            <div class="detail-card"><span class="detail-number">03</span><div><h3>My approach</h3><p>Stay curious, keep things simple, write maintainable code and learn by building.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading centered"><p class="section-kicker">MY TOOLKIT</p><h2>Skills I’m <span>building with.</span></h2><p class="section-subtitle">A growing set of technologies I use to design, develop and improve applications.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon">01</div><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript</p><div class="skill-tags"><span>Responsive UI</span><span>DOM</span><span>Accessibility basics</span></div></article>
+          <article class="skill-card"><div class="skill-icon">02</div><h3>Backend</h3><p>PHP · Java · Python</p><div class="skill-tags"><span>Application logic</span><span>REST concepts</span></div></article>
+          <article class="skill-card"><div class="skill-icon">03</div><h3>Databases</h3><p>MySQL · MongoDB</p><div class="skill-tags"><span>CRUD</span><span>Queries</span><span>Data modelling</span></div></article>
+          <article class="skill-card"><div class="skill-icon">04</div><h3>Tools & Interests</h3><p>Git · GitHub · AI/ML</p><div class="skill-tags"><span>VS Code</span><span>Android Studio</span><span>Learning by doing</span></div></article>
+        </div>
+        <p class="skills-note">Skill levels grow with practice — this section highlights my current learning toolkit, not formal certifications.</p>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading"><p class="section-kicker">SELECTED WORK</p><h2>Ideas turned into <span>projects.</span></h2><p class="section-subtitle">A selection of academic and personal projects. Update the links and project status as your work develops.</p></div>
+        <div class="projects-grid">
+          <article class="project-card project-featured"><div class="project-top"><span class="project-index">01 / WEB DEVELOPMENT</span><span class="project-arrow">↗</span></div><div class="project-art car-art"><span class="art-label">SMART MOBILITY</span><div class="car-shape"><i></i><b></b></div></div><div class="project-content"><h3>Car Recommendation Website</h3><p>A web application concept that helps users explore cars based on preferences such as budget, fuel type and other requirements.</p><div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div><a class="project-link" href="#contact">Ask me about this project <span>→</span></a></div></article>
+          <article class="project-card"><div class="project-top"><span class="project-index">02 / AI & SECURITY</span><span class="project-arrow">↗</span></div><div class="project-art verify-art"><div class="scan-frame"><span>QR</span><i></i></div><div class="scan-lines"></div></div><div class="project-content"><h3>Counterfeit Footwear Detection</h3><p>A project concept combining QR verification, AI image analysis and blockchain to support footwear authenticity checks.</p><div class="tech-list"><span>Python</span><span>Flask</span><span>MongoDB</span><span>AI</span></div><a class="project-link" href="#contact">Ask me about this project <span>→</span></a></div></article>
+          <article class="project-card"><div class="project-top"><span class="project-index">03 / ANDROID</span><span class="project-arrow">↗</span></div><div class="project-art photo-art"><div class="phone-mock"><div class="phone-top"></div><div class="phone-image"></div><div class="phone-lines"></div><div class="phone-button"></div></div></div><div class="project-content"><h3>KP Photo App</h3><p>An Android photography booking concept with customer and photographer workflows, gallery browsing and booking status updates.</p><div class="tech-list"><span>Java</span><span>XML</span><span>Firebase</span></div><a class="project-link" href="#contact">Ask me about this project <span>→</span></a></div></article>
+          <article class="project-card"><div class="project-top"><span class="project-index">04 / AI & CLOUD</span><span class="project-arrow">↗</span></div><div class="project-art food-art"><div class="food-circle">↗</div><div class="food-route route-a"></div><div class="food-route route-b"></div><span class="food-pin pin-a">●</span><span class="food-pin pin-b">●</span></div><div class="project-content"><h3>Food Waste Redistribution Platform</h3><p>A platform idea connecting restaurants, NGOs and volunteers, with AI-assisted food availability prediction and delivery coordination.</p><div class="tech-list"><span>AI</span><span>Cloud</span><span>Web Development</span></div><a class="project-link" href="#contact">Ask me about this project <span>→</span></a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="section-kicker">HAVE A PROJECT IN MIND?</p><h2>Let's build<br><span>something useful.</span></h2><p class="contact-copy">I'm always happy to connect, learn about interesting ideas and discuss opportunities to collaborate.</p><div class="contact-details"><a href="mailto:your.email@example.com" id="emailLink"><span>EMAIL</span>your.email@example.com ↗</a><a href="https://github.com/" target="_blank" rel="noreferrer"><span>GITHUB</span>github.com/yourusername ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span>LINKEDIN</span>linkedin.com/in/yourusername ↗</a></div></div>
+        <form class="contact-form" id="contactForm">
+          <h3>Send a message</h3><p>This demo form opens your email app with your message.</p>
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required />
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required />
+          <label for="message">Your message</label><textarea id="message" name="message" rows="4" placeholder="Tell me a little about your idea..." required></textarea>
+          <button class="button button-primary submit-button" type="submit">Prepare email <span>↗</span></button><p class="form-note" id="formNote" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">HK</span><span>Harshal<span class="brand-dot">.</span></span></a><p>Designed and built with curiosity. © <span id="year"></span> Harshal Karve.</p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
